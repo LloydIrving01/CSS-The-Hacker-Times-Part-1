@@ -11,8 +11,9 @@ a {
 }
 
 p {
+    font-size: 0.9em;
     text-align: justify;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 /*Container*/
@@ -29,6 +30,8 @@ p {
 /*Header*/
 header h1 {
     font-family: Abril Fatface;
+    margin: 0;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -38,6 +41,9 @@ nav {
     border-bottom: 1px solid #eee;
     padding: 5px 0;
     margin: 1em 0;
+    background: white;
+    position: sticky;
+    top: 0em;
 }
 
 ul {
@@ -61,13 +67,20 @@ main h2 {
     margin-bottom: 0;
 }
 
+main h5 {
+    font-family: Roboto slab;
+    margin-top: 0.5em;
+    color: #dd3232
+}
+
 main img {
     width: 100%;
 }
 
 /*Smaller Articles*/
 .more-articles {
-    border-top: 1px solid #eee;
+    border-top: 2px solid #eee;
+    margin-top: 1.5em;
 }
 
 .more-articles section {
@@ -76,6 +89,31 @@ main img {
     margin: 0 1em;
 }
 
+.more-articles img {
+    width: 100%;
+}
+
 h4 {
     font-family: Roboto Slab;
+    text-align: left;
+}
+
+/*Smaller Articles*/
+.even-more-articles {
+    border-top: 2px solid #eee;
+}
+
+.even-more-articles section {
+    display: inline-block;
+    width: 30%;
+    margin: 0 0.5em;
+}
+
+.even-more-articles img {
+    width: 100%;
+}
+
+h4 {
+    font-family: Roboto Slab;
+    text-align: left;
 }
